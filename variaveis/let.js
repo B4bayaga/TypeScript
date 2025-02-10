@@ -9,15 +9,6 @@ console.warn("Imprime um aviso", nome,"!");
 let idade;
 console.log("Inicializando variavel sem atribuir valor =",idade);
 
-// Não se declara a mesma variavel mais de uma vez
-try {
-    // Tenta executar o código dentro do bloco try
-    let nome = 'Rafael';
-  } catch (error) {
-    // Imprime uma mensagem de erro se ocorrer uma exceção
-    console.log(error.message);
-  }
-
 // Para declarar variaveis com nomes compostos usamos camelCase
 let nomeCompleto = 'Rafael Jesus';
 console.log("Nome completo =",nomeCompleto);
